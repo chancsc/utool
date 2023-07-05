@@ -30,7 +30,8 @@ h5py>=3.7.0     ; python_version < '3.11' and python_version >= '3.10'    # Pyth
 h5py>=3.7.0     ; python_version < '3.10' and python_version >= '3.9'     # Python 3.9
 h5py>=3.7.0     ; python_version < '3.9'  and python_version >= '3.8'     # Python 3.8
 h5py>=3.7.0     ; python_version < '3.8'  and python_version >= '3.7'     # Python 3.7
-h5py>=3.7.0     ; python_version < '3.7'  and python_version >= '3.6'     # Python 3.6
+#h5py>=3.7.0     ; python_version < '3.7'  and python_version >= '3.6'     # Python 3.6
+h5py>=2.10.0     ; python_version < '3.7'  and python_version >= '3.6'     # Python 3.6 -- on Ubuntu 18.04, python 3.6.9 (jetson nano), able to install h5py-2.10.0
 h5py>=3.7.0     ; python_version < '3.6'  and python_version >= '3.5'     # Python 3.5
 
 
