@@ -35,4 +35,5 @@ h5py>=2.10.0     ; python_version < '3.7'  and python_version >= '3.6'     # Pyt
 h5py>=3.7.0     ; python_version < '3.6'  and python_version >= '3.5'     # Python 3.5
 
 
-pint>=0.18
+#pint>=0.18
+pint>=0.17      # for jetson nano
